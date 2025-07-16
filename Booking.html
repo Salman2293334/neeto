@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nagu Saabsan Annaga</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html">Booking</a>
+            <a href="Help.html">Help</a>
+            <a href="about.html">about</a>
+        </nav>
+    </header>
+<form>
+  <fieldset>
+    <legend>Is Diwaaan Galinta Dalxiisaha:</legend>
+
+    <label for="name">Magac Oo Sadexan:</label>
+    <input type="text" id="name" name="name" required placeholder="Gali Magacaaga Oo Sadexan..."><br><br>
+
+    <label for="major">Goobta Aad Jeceshahay In Aad Ku Dalxiisto:</label>
+    <select id="major" name="Goobta Aad Jeceshahay In Aad Ku Dalxiisto" required>
+      <option value="">Dooro Goobta</option>
+      <option value="cs">Xeebta Liido</option>
+      <option value="business">Eyl</option>
+      <option value="engineering">Meydh</option>
+      <option value="other">Goobo kale</option>
+    </select><br><br>
+
+    <fieldset>
+      <legend>Shakhsiga Aad Tahay</legend>
+      <label><input type="radio" name="gender" value="male" required> Nin</label>
+      <label><input type="radio" name="gender" value="female"> Naag</label>
+    </fieldset><br>
+    <label for="phone">Telefoonka:</label>
+    <input type="tel" id="phone" name="phone" required placeholder="Gali lambarkaaga.."><br><br>
+    <label for="email">Email-ka:</label>
+    <input type="email" id="email" name="email" required placeholder="Gali email-kaaga.."><br><br>
+
+    <fieldset>
+      <legend>Maxaa Jeceshahay Inta Dalxiiska Lagu Jiro:</legend>
+      <label><input type="checkbox" name="hobbies" value="reading"> Akhrin</label>
+      <label><input type="checkbox" name="hobbies" value="sports"> Banooni</label>
+      <label><input type="checkbox" name="hobbies" value="music"> Heeso</label>
+      <label><input type="checkbox" name="hobbies" value="travel"> Sawiro/fidiyowyaal</label>
+    </fieldset><br>
+
+    <label for="comments">Maxaad Ka Rajeyneysaa In Uu Noqdo Dalxiis Kaaga:</label><br>
+    <textarea id="comments" name="comments" placeholder="Qor wax uun..." rows="4" cols="50"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="clear">clear</button>
+  </fieldset>
+</form>
+</body>
+</html>
